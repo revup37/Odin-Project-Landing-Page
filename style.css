@@ -11,67 +11,107 @@ header {
     background-color: #ffe62d;
 }
 
-.mainContainer h1 {
-    font-size: 36px;
-    font-weight: 900;
-    color: black;
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 36px;
     color: black;
     font-weight: 700;
-    padding: 8px 12px;
-    margin-left: 400px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-basis: 50%;
+    padding-left: 125px;
 }
 
 .nav-links {
-    flex: 1;
-    text-align: right;
-    margin-right: 400px;
-    font-weight: 500;
+    flex-basis: 50%;
+    padding-left: 300px;
 }
 
 .nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 2rem 2rem;
-    position: relative;
+    display: inline-flex;
+    margin: 0 10px;
 }
+
 
 .nav-links ul li a {
     color: black;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: 500;
 }
+
+/* ----------------- First Section -------------------- */
 
 .mainPage {
     display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.mainPage img {
+.mainPageTxt {
+    padding-top: 50px;
+    padding-left: 80px;
+    flex-basis: 50%;
+}
+
+.mainPageTxt h1 {
+    font-size: 48px;
+    font-weight: 800;
+
+
+}
+
+.mainPageImg {
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background: lightblue;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px
+}
+
+
+/* ------------------ Second Section ------------------------ */
+
+
+section h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+
+.section2 ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact {
     height: 300px;
-    width: 600px;
-    margin-right: 430px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border: 5px solid black;
+    width: 350px;
+    border: 5px solid blue;
+    border-radius: 10%;
 }
 
-.mainContainer {
-    height: 300px;
-    width: 600px;
-    margin-right: 390px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 350px;
-    padding-left: 50px;
+.factImg {
+    height: 150px;
+    width: 150px;
 }
 
-.mainContainer h1 {}
+.factImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
