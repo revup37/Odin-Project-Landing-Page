@@ -7,6 +7,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
 header {
     background-color: #ffe62d;
 }
@@ -15,6 +20,8 @@ nav {
     display: flex;
     justify-content: center;
     padding: 50px;
+    padding-left: 255px;
+    padding-right: 300px;
     background-color: #1f2937;
 }
 
@@ -57,8 +64,8 @@ nav {
     justify-content: space-around;
     padding-top: 200px;
     padding-bottom: 350px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 200px;
 }
 
 .mainPageTxt {
@@ -106,7 +113,7 @@ section h2 {
     justify-content: center;
     text-align: center;
     gap: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
 
 }
 
@@ -131,9 +138,9 @@ section h2 {
 
 .section3 {
     background-color: #e5e7eb;
-    height: 500px;
+    height: 450px;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 150px;
 }
 
 .section3 p {
@@ -150,7 +157,7 @@ section h2 {
 /* --------------Section 4------------------- */
 
 .cta {
-    height: 400px;
+    height: 350px;
 }
 
 .section4 {
