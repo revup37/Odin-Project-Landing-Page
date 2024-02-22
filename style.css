@@ -21,7 +21,7 @@ nav {
     justify-content: center;
     padding: 50px;
     padding-left: 255px;
-    padding-right: 300px;
+    padding-right: 360px;
     background-color: #1f2937;
 }
 
@@ -157,7 +157,7 @@ section h2 {
 /* --------------Section 4------------------- */
 
 .cta {
-    height: 350px;
+    height: 320px;
 }
 
 .section4 {
@@ -186,10 +186,10 @@ section h2 {
 
 
 footer {
-    height: 150px;
+    height: 120px;
     background-color: #1f2937;
     color: white;
     margin: auto;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
 }
